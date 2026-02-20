@@ -1,0 +1,34 @@
+{
+    "name": "The Hackathon Geometry Dash Ripoff",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "credits.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.11.37",
+        "tag": "v1.11.37",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/bf992d35ca2baeaa26d773aac7caad5a152c45aa",
+        "target": "4.0.7",
+        "pxt": "8.4.30",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
